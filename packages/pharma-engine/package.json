@@ -1,0 +1,9 @@
+{
+  "name": "@vibe2founder/pharma-engine",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "zod": "latest"
+  }
+}

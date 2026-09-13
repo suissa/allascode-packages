@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Prompt Tester API",
+    "version": "1.0.0",
+    "description": "API for testing and generating intent prompts without entity name usage."
+  },
+  "paths": {
+    "/process": {
+      "post": {
+        "summary": "Processes an openintent.json file and returns generated prompts.",
+        "responses": {
+          "200": {
+            "description": "List of domains and their intent summaries."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IntentSummary": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "hadOriginalPrompt": { "type": "boolean" },
+          "finalPrompt": { "type": "string" }
+        }
+      }
+    }
+  }
+}

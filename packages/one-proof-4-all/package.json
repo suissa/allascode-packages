@@ -1,0 +1,6 @@
+{
+  "name": "@purecore/one-proof-4-all",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}
