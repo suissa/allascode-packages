@@ -36,10 +36,10 @@
     "moment": "^2.29.4",
     "node-fetch": "^3.3.2",
     "puppeteer": "^21.3.6",
-    "uuid": "^9.0.1",
+    "uuid": "^14.0.3",
     "validator": "^13.11.0",
     "xml2js": "^0.6.2",
-    "zod": "^3.22.2"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
